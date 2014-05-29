@@ -33,6 +33,9 @@ public class StringListInAnyOrderTest {
 		assertThat(lista1, stringListInAnyOrder(lista2));
 	}
 	
-	
+	@Test
+	public void testName() throws Exception {
+		assertTrue(true);
+	}
 	
 }
