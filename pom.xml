@@ -10,9 +10,10 @@
   <name>Hamcrest</name>
   <url>http://maven.apache.org</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+<properties>
+  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding> 
+</properties>
 
   <dependencies>
     <dependency>
@@ -22,4 +23,19 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <build>
+<plugins>
+<plugin>
+<artifactId>maven-compiler-plugin</artifactId>
+<configuration>
+<source>1.6</source>
+<target>1.6</target>
+</configuration>
+</plugin>
+</plugins>
+</build>
+
+
+  
 </project>
