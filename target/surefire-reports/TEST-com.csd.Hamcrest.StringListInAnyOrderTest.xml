@@ -27,7 +27,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/Tino/Development/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf896940171103615873.tmp"/>
+    <property name="classworlds.conf" value="/Users/Tino/Development/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf5939254878469252858.tmp"/>
     <property name="sun.jnu.encoding" value="MacRoman"/>
     <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -66,8 +66,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.001" classname="com.csd.Hamcrest.StringListInAnyOrderTest" name="testName"/>
+  <testcase time="0.002" classname="com.csd.Hamcrest.StringListInAnyOrderTest" name="testName"/>
   <testcase time="0.001" classname="com.csd.Hamcrest.StringListInAnyOrderTest" name="checkingTwoEmptyList"/>
-  <testcase time="0.001" classname="com.csd.Hamcrest.StringListInAnyOrderTest" name="sameListUnordered"/>
+  <testcase time="0" classname="com.csd.Hamcrest.StringListInAnyOrderTest" name="sameListUnordered"/>
   <testcase time="0" classname="com.csd.Hamcrest.StringListInAnyOrderTest" name="checkingTwoOneElementListEquals"/>
 </testsuite>

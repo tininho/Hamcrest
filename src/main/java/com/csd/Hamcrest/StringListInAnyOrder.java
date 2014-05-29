@@ -1,7 +1,5 @@
 package com.csd.Hamcrest;
 
-import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import org.hamcrest.Description;
@@ -11,7 +9,7 @@ import org.hamcrest.TypeSafeMatcher;
 
 public class StringListInAnyOrder extends TypeSafeMatcher<List<String>> {
 
-	List<String> lista2;
+	private List<String> lista2;
 
 	public StringListInAnyOrder(List<String> expected) {
 		this.lista2 = expected;

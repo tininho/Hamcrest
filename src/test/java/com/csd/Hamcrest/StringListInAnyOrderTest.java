@@ -1,8 +1,8 @@
 package com.csd.Hamcrest;
 
 import static com.csd.Hamcrest.StringListInAnyOrder.stringListInAnyOrder;
-import static org.hamcrest.CoreMatchers.not;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertTrue;
 
 import java.util.ArrayList;
 import java.util.Arrays;
